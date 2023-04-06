@@ -1,23 +1,25 @@
 {
-  "name": "mindalayvideostream",
-  "version": "1.7.2",
-  "description": "many to many video streaming using WebRTC technology",
+  "name": "react.screenshare",
+  "version": "1.0.0",
+  "description": "WebRTC screenshare project on React",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TigranSaharian/mindalayVideoStream.git"
+    "url": "git+https://github.com/TigranSaharian/screenshare.git"
   },
   "keywords": [
-    "video",
-    "streaming"
+    "screenshare"
   ],
   "author": "Tigran Saharyan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TigranSaharian/mindalayVideoStream/issues"
+    "url": "https://github.com/TigranSaharian/screenshare/issues"
   },
-  "homepage": "https://github.com/TigranSaharian/mindalayVideoStream#readme"
+  "homepage": "https://github.com/TigranSaharian/screenshare#readme"
 }

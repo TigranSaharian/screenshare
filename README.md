@@ -4,12 +4,12 @@ many to many video streaming
 
 # Instolation
 
-`npm i mindalayvideostream --save`
+`npm i react.screenshare --save`
 
 # inital
 
 ```
-import { RtcConnection } from "mindalayvideostream";
+import { RtcConnection } from "RtcConnection";
 ```
 
 ## *React*
@@ -17,26 +17,21 @@ import { RtcConnection } from "mindalayvideostream";
 <VideoConnection 
     roomId='roomid_123'
     videoContainer= {document.getElementById("container")}
-    isAudio= {true}
-    isVideo ={true}
-    videoWidth= {1920}
-    videoHeight= {1080}
-    frameRate= {30}
-    videoControls={[ 'mute-audio', 'mute-video', 'full-screen'] } 
+    videoControls={['full-screen'] } 
 />
 ```
 
 * *videoConnection component* 
 ```
 const connection = new RtcConnection({
-    roomId, videoContainer, isAudio, isVideo, videoWidth, videoHeight, frameRate, videoControls
+    roomId, videoContainer, videoControls
 });
 
 
 create any button and take the id
 
 useEffect(()=>{
-    connection.openOrJoin("open-or-join-room")
+    connection.openRoom()
 },[connection])
 ```
 ## *JavaScript*
@@ -44,25 +39,18 @@ useEffect(()=>{
 var connectin = new RtcConnection({
     roomId: 'roomid_123',
     videoContainer: document.getElementById('container'),
-    isAudio: true,
-    isVideo: true,
-    videoWidth: 1920,
-    videoHeight: 1080,
-    frameRate: 30,
     videoControls: [
-        'mute-audio', 'mute-video', 'full-screen'
+        'full-screen'
     ]
 });
 
-connectin.openOrJoin('open-or-join-room');
+connectin.open();
 ```
 
 ## Options
 
 * *roomId* - any unique id (typeof string)
 * *videoContainer* - take the HTML element | document.getElementById('elementId')
-* *isAudio* - true | false
-* *isVideo* - true | false
 * *videoControls* - 'mute-audio','mute-video','full-screen',
                     'take-snapshot','record-audio','record-video',
                     'volume-slider','stop'

@@ -9,21 +9,21 @@ many to many video streaming
 # inital
 
 ```
-import { RtcConnection } from "RtcConnection";
+import { Screenshare } from "react.screenshare";
 ```
 
 ## *React*
 ```
-<RtcConnection 
+<Screenshare 
     roomId='roomid_123'
     videoContainer= {document.getElementById("container")}
     videoControls={['full-screen'] } 
 />
 ```
 
-* *RtcConnection component* 
+* *Screenshare component* 
 ```
-const connection = new RtcConnection({
+const connection = new Screenshare({
     roomId, videoContainer, videoControls
 });
 
@@ -36,7 +36,7 @@ useEffect(()=>{
 ```
 ## *JavaScript*
 ```
-var connectin = new RtcConnection({
+var connectin = new Screenshare({
     roomId: 'roomid_123',
     videoContainer: document.getElementById('container'),
     videoControls: [

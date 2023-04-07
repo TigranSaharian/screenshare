@@ -1,7 +1,7 @@
 {
-  "name": "react-screenshare",
-  "version": "1.1.21",
-  "description": "WebRTC screenshare project on React",
+  "name": "screenshare",
+  "version": "1.0.0",
+  "description": "Screenshare based on WebRTC",
   "main": "index.js",
   "directories": {
     "lib": "lib"

@@ -1,5 +1,5 @@
 {
-  "name": "react.screenshare",
+  "name": "react-screenshare",
   "version": "1.1.1",
   "description": "WebRTC screenshare project on React",
   "main": "index.js",

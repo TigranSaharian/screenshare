@@ -1,2 +1,2 @@
-import 'screenshare/dev/getHTMLMediaElement.css'
+import 'react.screenshare/dev/getHTMLMediaElement.css'
 export * from "./lib";

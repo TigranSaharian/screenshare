@@ -1,7 +1,7 @@
 {
-  "name": "screenshare",
-  "version": "1.0.11",
-  "description": "Screenshare based on WebRTC",
+  "name": "besmart-screenshare",
+  "version": "1.0.0",
+  "description": "many to many video streaming",
   "main": "index.js",
   "directories": {
     "lib": "lib"

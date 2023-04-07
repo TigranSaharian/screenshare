@@ -14,14 +14,14 @@ import { RtcConnection } from "RtcConnection";
 
 ## *React*
 ```
-<VideoConnection 
+<RtcConnection 
     roomId='roomid_123'
     videoContainer= {document.getElementById("container")}
     videoControls={['full-screen'] } 
 />
 ```
 
-* *videoConnection component* 
+* *RtcConnection component* 
 ```
 const connection = new RtcConnection({
     roomId, videoContainer, videoControls

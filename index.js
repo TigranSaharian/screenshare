@@ -1,2 +1,2 @@
-import 'mindalayvideostream/dev/getHTMLMediaElement.css'
+import 'screenshare/dev/getHTMLMediaElement.css'
 export * from "./lib";

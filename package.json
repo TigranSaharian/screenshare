@@ -1,6 +1,6 @@
 {
   "name": "screenshare",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Screenshare based on WebRTC",
   "main": "index.js",
   "directories": {

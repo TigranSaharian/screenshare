@@ -26,7 +26,7 @@
 .media-control-wrapper{
     background-color: #ffffffa6;
     border-radius: 50%;
-    margin: 0 2.5px;
+    margin: 0 10px;
     padding: 7px;
     cursor: pointer;
 }
@@ -39,12 +39,12 @@
 }
 
 .media-controls, .volume-control {
-    /* position: absolute; */
-    /* z-index: 100; */
+    position: absolute;
+    z-index: 100;
     opacity: 0;
     bottom: 10px;
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,13 +61,13 @@
 
 .remote-stream.vnd--media-container{
     height: auto;
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
+    /* position: absolute; */
+    /* right: 20px;
+    bottom: 20px; */
     z-index: 100;
     border-radius: 10px;
-    padding: 10px;
-    padding-bottom: 55px;
+    padding: 5px;
+    /* padding-bottom: 55px; */
 }
 
 .vnd--media-container video{

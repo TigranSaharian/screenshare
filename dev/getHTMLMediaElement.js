@@ -238,7 +238,7 @@ function getHTMLMediaElement(mediaElement, config) {
 
             if (isFullScreeMode) mediaElementContainer.style.width = window.innerWidth - 20 + 'px';
             else mediaElementContainer.style.width = config.width + 'px';
-            // mediaElementContainer.style.width = (isFullScreeMode ? (parent.innerWidth - 20) : config.width) + 'px';
+            mediaElementContainer.style.width = (isFullScreeMode ? (parent.innerWidth - 20) : config.width) + 'px';
             mediaElementContainer.style.display = isFullScreeMode ? 'block' : 'inline-block';
 
             if (config.height) {

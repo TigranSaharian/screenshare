@@ -36,6 +36,7 @@
     border-radius: 50%;
     padding: 7px;
     cursor: pointer;
+    margin: 0 10px;
 }
 
 .media-controls, .volume-control {
@@ -47,7 +48,7 @@
     transform: translateX(-50%);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
 }
 
@@ -61,12 +62,8 @@
 
 .remote-stream.vnd--media-container{
     height: auto;
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    z-index: 100;
     border-radius: 10px;
-    padding: 10px;
+    padding: 5px;
     padding-bottom: 55px;
 }
 

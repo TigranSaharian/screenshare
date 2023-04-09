@@ -1,6 +1,6 @@
 {
   "name": "besmart-screenshare",
-  "version": "1.0.49",
+  "version": "1.0.50",
   "description": "many to many video streaming",
   "main": "index.js",
   "directories": {

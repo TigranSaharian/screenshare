@@ -20,7 +20,7 @@
     vertical-align: top;
     /* background: #242424; */
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-    /* border-radius: 5px; */
+    border-radius: 5px;
 }
 
 .media-control-wrapper{
@@ -76,6 +76,7 @@
 
 .media-control-wrapper:active, .media-control-wrapper.selected, .volume-control .control:active {
     background-color: #cf000f!important;
+    opacity: 0.6;
 }
 
 .mute-audio {

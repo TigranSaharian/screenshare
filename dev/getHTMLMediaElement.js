@@ -237,8 +237,8 @@ function getHTMLMediaElement(mediaElement, config) {
             var isFullScreeMode = document.webkitIsFullScreen || document.mozFullScreen || document.fullscreen;
 
             if (isFullScreeMode) mediaElementContainer.style.width = window.innerWidth - 20 + 'px';
-            else mediaElementContainer.style.width = config.width + 'px';
-            mediaElementContainer.style.width = (isFullScreeMode ? (parent.innerWidth - 20) : config.width) + 'px';
+            else mediaElementContainer.style.width = config.width ? config.width + 'px' : '100%';
+            // mediaElementContainer.style.width = (isFullScreeMode ? (parent.innerWidth - 20) : config.width) + 'px';
             mediaElementContainer.style.display = isFullScreeMode ? 'block' : 'inline-block';
 
             if (config.height) {
